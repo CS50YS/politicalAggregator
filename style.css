@@ -10,3 +10,19 @@ body
 	/* background color: light gray (for now) */
 	background-color: #999999;
 }
+
+/* Title */
+h2 {
+    margin: auto;
+    color: white;
+    font-size: 50px;
+}
+
+
+/*Dropdown*/
+.gender-select{
+    margin: auto;
+}
+
+
+}
