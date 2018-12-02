@@ -1,0 +1,43 @@
+/* css for political aggregator */
+
+
+body
+{
+    /* background color: us flag (for now) */
+	background-image: url(building3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    /*color of words*/
+    color: white;
+}
+
+.questions {
+    margin-left: 10%;
+}
+
+/* Title */
+h1
+{
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    text-align:center;
+}
+
+a
+{
+	color: white;
+}
+
+.footer {
+    position: absolute;
+    height: 83px;
+    width: 100%;
+    left: 0;
+    bottom: 5;
+    background: black;
+    color: white;
+    text-align: center;
+}

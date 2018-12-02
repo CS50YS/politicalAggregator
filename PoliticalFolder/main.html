@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <!-- This part puts the icon into the tab header --> 
+    <link rel="icon" href="ice_cream.jpg">
+	<title>The Perfect Scoop</title>
+	<meta charset="UTF-8">
+	<!-- make the page look ok for mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="backend_js.js"></script>
+    
+    <style> 
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lora", serif;}
+        background-image = "building3.jpg";
+    </style>
+</head>
+
+<body>
+    <br>
+	<h1>The Perfect Scoop</h1>
+    
+    <br>
+	
+	<!-- dropdowns: gender, location, party; age is typed in -->
+	<!-- <form action="/action_page.php">
+	-->
+    <div class ="questions">
+        
+         <p>Welcome to “The Perfect Scoop”. Our mission is to bring citizens a new perspective. More and more so, our country has become divided along the lines of our political parties. According to a study completed by the Pew Research Center, 53% of Americans in 1985 believed that the media tends to present biased perspectives. In 2012, they found that 77% of Americans believed this was the case.</p>
+
+        <p>While we can’t change the media, we can change what we see. Our website tailors our nation's political news articles to present you with perspectives different from your own. “The Perfect Scoop” aims to overcome political biases and work towards a better informed America. We work for the good of the people, not the good of a party. 
+        </p>
+        
+        <p>Enter your information below so we can begin to curate your feed.</p>
+        
+        <br>
+
+            Age:<br>
+            <input id="age_field" type="text" age="age">
+
+        <br>
+            
+        <p>Select your gender:</p>
+        <select id="gender_dropdown">
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+            <option value = "Other">Other</option>
+        </select>
+        <br>
+        <p>Select your location:</p>
+        <select>
+            <option value="location">State</option>
+            <option value="Alabama">Alabama</option>
+            <option value="Alaska">Alaska</option>
+            <option value="Arizona">Arizona</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="California">California</option>
+            <option value="Colorado">Colorado</option>
+            <option value="Connecticut">Connecticut</option>
+            <option value="Delaware">Delaware</option>
+            <option value="Florida">Florida</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Idaho">Idaho</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Indiana">Indiana</option>
+            <option value="Iowa">Iowa</option>
+            <option value="Kansas">Kansas</option>
+            <option value="Kentucky">Kentucky</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Maine">Maine</option>
+            <option value="Maryland">Maryland</option>
+            <option value="Massachusetts">Massachusetts</option>
+            <option value="Michigan">Michigan</option>
+            <option value="Minnesota">Minnesota</option>
+            <option value="Mississippi">Mississippi</option>
+            <option value="Missouri">Missouri</option>
+            <option value="Montana">Montana</option>
+            <option value="Nebraska">Nebraska</option>
+            <option value="Nevada">Nevada</option>
+            <option value="New Hampshire">New Hampshire</option>
+            <option value="New Jersey">New Jersey</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="New York">New York</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="North Dakota">North Dakota</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="Oregon">Oregon</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Rhode Island">Rhode Island</option>
+            <option value="South Carolina">South Carolina</option>
+            <option value="South Dakota">South Dakota</option>
+            <option value="Tennessee">Tennessee</option>
+            <option value="Texas">Texas</option>
+            <option value="Utah">Utah</option>
+            <option value="Vermont">Vermont</option>
+            <option value="Virginia">Virginia</option>
+            <option value="Washington">Washington</option>
+            <option value="West Virginia">West Virginia</option>
+            <option value="Wisconsin">Wisconsin</option>
+            <option value="Wyoming">Wyoming</option>
+        </select>
+        <br>
+        <p>
+            Select your political affiliation. If you're not sure, try <a href="https://www.politicalcompass.org/test" target="_blank"> this test from Political Compass.</a>
+        </p>
+        <select id="part_dropdown">
+            <option value="Democrat">Democrat</option>
+            <option value="Republican">Republican</option>
+            <option value="Independent">Independent</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <button id="submit_bttn">Submit</button>
+    
+        <br>        
+
+        <!-- see https://www.w3schools.com/html/html_forms.asp if a submit button is needed (?) -->
+        <br>
+        <br>
+        <div id="news_feed">
+        
+        </div>
+        <div class="footer">
+            <p>The Perfect Scoop - Uneven No More</p>
+            
+            <p>Created by Yuval Shechter, Ruiying Gao, Maggie Tseng, Jocelyn Pern, and Cathy Cheng</p>
+            
+        
+        </div>
+        
+    </div>
+    
+
+</body>
+    
+
+
+</html>
+
+<!-- STATES
+<option value="Alabama">Alabama</option>
+<option value="Alaska">Alaska</option>
+<option value="Arizona">Arizona</option>
+<option value="Arkansas">Arkansas</option>
+<option value="California">California</option>
+<option value="Colorado">Colorado</option>
+<option value="Connecticut">Connecticut</option>
+<option value="Delaware">Delaware</option>
+<option value="Florida">Florida</option>
+<option value="Georgia">Georgia</option>
+<option value="Hawaii">Hawaii</option>
+<option value="Idaho">Idaho</option>
+<option value="Illinois">Illinois</option>
+<option value="Indiana">Indiana</option>
+<option value="Iowa">Iowa</option>
+<option value="Kansas">Kansas</option>
+<option value="Kentucky">Kentucky</option>
+<option value="Louisiana">Louisiana</option>
+<option value="Maine">Maine</option>
+<option value="Maryland">Maryland</option>
+<option value="Massachusetts">Massachusetts</option>
+<option value="Michigan">Michigan</option>
+<option value="Minnesota">Minnesota</option>
+<option value="Mississippi">Mississippi</option>
+<option value="Missouri">Missouri</option>
+<option value="Montana">Montana</option>
+<option value="Nebraska">Nebraska</option>
+<option value="Nevada">Nevada</option>
+<option value="New Hampshire">New Hampshire</option>
+<option value="New Jersey">New Jersey</option>
+<option value="New Mexico">New Mexico</option>
+<option value="New York">New York</option>
+<option value="North Carolina">North Carolina</option>
+<option value="North Dakota">North Dakota</option>
+<option value="Ohio">Ohio</option>
+<option value="Oklahoma">Oklahoma</option>
+<option value="Oregon">Oregon</option>
+<option value="Pennsylvania">Pennsylvania</option>
+<option value="Rhode Island">Rhode Island</option>
+<option value="South Carolina">South Carolina</option>
+<option value="South Dakota">South Dakota</option>
+<option value="Tennessee">Tennessee</option>
+<option value="Texas">Texas</option>
+<option value="Utah">Utah</option>
+<option value="Vermont">Vermont</option>
+<option value="Virginia">Virginia</option>
+<option value="Washington">Washington</option>
+<option value="West Virginia">West Virginia</option>
+<option value="Wisconsin">Wisconsin</option>
+<option value="Wyoming">Wyoming</option>
+ -->
