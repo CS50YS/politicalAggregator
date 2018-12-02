@@ -7,22 +7,29 @@
 
 body
 {
-	/* background color: light gray (for now) */
-	background-color: #999999;
+	/* background color: us flag (for now) */
+	background-image: url(us_flag2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    
+    /*
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    */
+    
+    /*color of words*/
+    color: white;
+    
+    /*color of links*/
+    
 }
 
 /* Title */
-h2 {
+h1 {
     margin: auto;
     color: white;
     font-size: 50px;
 }
 
-
-/*Dropdown*/
-.gender-select{
-    margin: auto;
-}
-
-
-}
