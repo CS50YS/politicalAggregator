@@ -7,7 +7,8 @@
 
 body
 {
-	/* background color: us flag (for now) */
+	margin-left: 10%;
+    /* background color: us flag (for now) */
 	background-image: url(us_flag2.jpg);
     background-position: top;
     background-repeat: no-repeat;
