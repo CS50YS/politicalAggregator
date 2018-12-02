@@ -13,24 +13,21 @@ body
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% 200%;
-    
-    /*
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100% 200%;
-    */
-    
+
     /*color of words*/
     color: white;
-    
-    /*color of links*/
-    
 }
 
 /* Title */
-h1 {
+h1
+{
     margin: auto;
     color: white;
     font-size: 50px;
+    text-align:center;
 }
 
+a
+{
+	color: white;
+}
