@@ -7,7 +7,6 @@
 
 body
 {
-	margin-left: 10%;
     /* background color: us flag (for now) */
 	background-image: url(us_flag2.jpg);
     background-position: top;
@@ -16,6 +15,10 @@ body
 
     /*color of words*/
     color: white;
+}
+
+.questions {
+    margin-left: 10%;
 }
 
 /* Title */
