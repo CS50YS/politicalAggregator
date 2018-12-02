@@ -7,7 +7,7 @@ body
 	background-image: url(building3.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 
     /*color of words*/
     color: white;
